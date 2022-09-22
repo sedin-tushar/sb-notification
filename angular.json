@@ -36,6 +36,11 @@
             ]
           }
         }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
       }
     }
   },
