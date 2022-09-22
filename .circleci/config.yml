@@ -22,18 +22,12 @@ jobs:
           paths:
             - node_modules
       - run:
-          name: install sonar scanner
-          command: sudo npm install -g sonarqube-scanner@2.7.0
-      - run:
-          name: Run SonarScan
-          command: sonar-scanner
-      - run:
           name: Publish to NPM
           command: |
             if [ -z $CIRCLE_PR_NUMBER ]; then
-              npm run build
+              npm run build && npm pack ./dist/notification
               echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
               npm publish ./dist/notification
             else
-              npm run build
+              npm run build && npm pack ./dist/notification
             fi  
