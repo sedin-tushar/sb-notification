@@ -18,8 +18,10 @@
         ,          "configurations": {
             "production": {
               "tsConfig": "projects/notification/tsconfig.lib.prod.json"
-            }
-          }
+            },
+            "development": {}
+          },
+          "defaultConfiguration": "production"
 },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
