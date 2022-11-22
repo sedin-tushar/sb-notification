@@ -1,6 +1,6 @@
 {
   "name": "@project-sunbird/sb-notification",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sunbird-Ed/sb-notification.git"
@@ -12,6 +12,9 @@
   ],
   "bugs": {
       "url": "https://github.com/Sunbird-Ed/sb-notification/issues"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   },
   "homepage": "https://github.com/Sunbird-Ed/sb-notification.git#readme"
 }
