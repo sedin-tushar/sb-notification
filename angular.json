@@ -30,18 +30,6 @@
             "tsConfig": "projects/notification/tsconfig.spec.json",
             "karmaConfig": "projects/notification/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/notification/tsconfig.lib.json",
-              "projects/notification/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       },
       "schematics": {
