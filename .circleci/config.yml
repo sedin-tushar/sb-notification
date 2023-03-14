@@ -27,7 +27,7 @@ jobs:
             if [ -z $CIRCLE_PR_NUMBER ]; then
               npm run build && npm pack ./dist/notification
               echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
-              npm publish ./dist/notification
+              npm publish --accesss=public ./dist/notification
             else
               npm run build && npm pack ./dist/notification
             fi  
