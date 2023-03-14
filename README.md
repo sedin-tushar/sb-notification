@@ -94,6 +94,8 @@ export class AppModule { }
 | release-5.1.0_v11 	|        5.0.5        	|      NG V11     	|
 | release-5.1.0_v12 	|        5.0.6        	|      NG V12     	|
 | release-5.1.0_v10 	|        5.0.8        	|      NG V10     	|
-| release-5.1.0_v12 	|        5.0.9        	|      NG V12    	|
+| release-5.1.0_v12 	|        5.0.9        	|      NG V12     	|
+| release-6.0.0_v13 	|        6.0.0        	|      NG V13    	|
+
 
 
