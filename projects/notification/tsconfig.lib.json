@@ -24,7 +24,7 @@
     "strictInjectionParameters": true,
     "enableResourceInlining": true,
     "compilationMode": "partial",
-    "enableIvy": "partial"
+    "enableIvy": true
   },
   "exclude": [
     "src/test.ts",

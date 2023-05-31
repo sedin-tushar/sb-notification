@@ -39,8 +39,5 @@
       }
     }
   },
-  "defaultProject": "notification",
-  "cli": {
-    "analytics": "6b63c3ac-e480-4085-8624-e6fb2554641d"
-  }
+  "defaultProject": "notification"
 }
