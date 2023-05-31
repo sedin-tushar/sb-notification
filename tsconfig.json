@@ -1,7 +1,8 @@
 {
   "compileOnSave": false,
   "angularCompilerOptions": {
-    "compilationMode": "partial"
+    "compilationMode": "partial",
+    "enableIvy": "partial"
   },
   "compilerOptions": {
     "baseUrl": "./",
