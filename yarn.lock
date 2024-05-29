@@ -1543,10 +1543,10 @@
     read-package-json-fast "^2.0.3"
     which "^2.0.2"
 
-"@project-sunbird/sb-styles@0.0.16":
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/@project-sunbird/sb-styles/-/sb-styles-0.0.16.tgz#a885816327ef3c7ef054b1e4706778135fdff04b"
-  integrity sha512-bQB1ZGEdxk7/mcDMjcY9d7C2tpJpinmBzbxOPV0YDoOiZVHv1haS+yFlUbxxgDz9hhrr3u6A+vBoBUaX2We5gA==
+"@project-sunbird/sb-styles@0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@project-sunbird/sb-styles/-/sb-styles-0.0.17.tgz#7fc840c108bbd4399571ed28c413ed53d32eb1e7"
+  integrity sha512-DZNl2esoGwj2zEaGHyTKVmUj91xwr7PhbveDh5s8/GRM/O0WtxXlvsbhe+KEnZxPHsuK6I/9G5hDgngUSDI9yQ==
 
 "@rollup/plugin-json@^4.1.0":
   version "4.1.0"
